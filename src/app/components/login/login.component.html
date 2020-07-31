@@ -1,0 +1,19 @@
+<div class="bgLogin"></div>
+<div class="abs-center animated fadeInLeft">
+
+    <div class="loginForm">
+        <form #f="ngForm" (ngSubmit)="login()">
+            <div class="text-center">
+                <img src="../../../assets/images/angular.png" class="imgRoudChat">
+            </div>
+            <div class="form-text text-center">
+                <h1>Login</h1>
+            </div>
+            <input type="text" [(ngModel)]="usuario.usuario" name="usuario" class="form-control" placeholder="Usuario" required autofocus />
+            <input type="password" [(ngModel)]="usuario.password" name="password" class="form-control mt-2" placeholder="Password" required minlength="2" autofocus autocomplete="off" />
+            <button [disabled]="f.invalid" class="btn btn-primary btn-block mt-4" type="submit">
+      Ingresar
+    </button>
+        </form>
+    </div>
+</div>

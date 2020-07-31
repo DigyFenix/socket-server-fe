@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+.bazul {
+    border: blue 2px solid;
+}
+
+.brojo {
+    border: red 2px solid;
+}
+
+.bnegro {
+    border: black 2px solid;
+}
+
+.bamarillo {
+    border: yellow 2px solid;
+}
+
+.imgRoudChat {
+    width: 75px;
+    height: 75px;
+}
+
+.imgRoudPerfilChat {
+    width: 50px;
+    height: 50px;
+}
+
+.h-chat-row {
+    height: 75px;
+    width: 100%;
+    max-height: 75px;
+}
+
+.list-group {
+    overflow-y: auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

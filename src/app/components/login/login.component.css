@@ -1,0 +1,35 @@
+.bgLogin {
+    background: url('../../../assets/images/login.jpg') no-repeat center fixed;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    clear: both;
+}
+
+.loginForm {
+    max-width: 350px;
+    width: 50%;
+}
+
+body {
+    font-family: "Arial";
+    color: #fff;
+}
+
+.page-bg {}
